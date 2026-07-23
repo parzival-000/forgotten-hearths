@@ -4,6 +4,7 @@ import com.parzival000.forgottenhearths.ForgottenHearths;
 import com.parzival000.forgottenhearths.block.ForgottenHearthBlock;
 import com.parzival000.forgottenhearths.block.HearthStage;
 import com.parzival000.forgottenhearths.block.RestorationMarkerBlock;
+import com.parzival000.forgottenhearths.block.SmallDecorativeBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -37,8 +38,24 @@ public final class ModBlocks {
                     .noOcclusion()
     );
 
+    public static final DeferredBlock<SmallDecorativeBlock> HEARTH_KETTLE = BLOCKS.registerBlock(
+            "hearth_kettle",
+            properties -> new SmallDecorativeBlock(properties, Block.box(2, 0, 3, 15, 14, 13)),
+            () -> BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLACK).strength(1.5F).sound(SoundType.COPPER).noOcclusion()
+    );
+
+    public static final DeferredBlock<SmallDecorativeBlock> MENDED_CROCK = BLOCKS.registerBlock(
+            "mended_crock",
+            properties -> new SmallDecorativeBlock(properties, Block.box(3, 0, 3, 13, 11, 13)),
+            () -> BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_BROWN).strength(0.8F).sound(SoundType.DECORATED_POT).noOcclusion()
+    );
+
+    public static final DeferredBlock<SmallDecorativeBlock> PATCHWORK_QUILT = BLOCKS.registerBlock(
+            "patchwork_quilt",
+            properties -> new SmallDecorativeBlock(properties, Block.box(2, 0, 3, 14, 3, 13)),
+            () -> BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_RED).strength(0.4F).sound(SoundType.WOOL).noOcclusion()
+    );
 
     private ModBlocks() {
     }
 }
-

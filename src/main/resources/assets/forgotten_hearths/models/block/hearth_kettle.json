@@ -1,0 +1,23 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "forgotten_hearths:block/hearth_kettle",
+    "copper": "forgotten_hearths:block/hearth_kettle",
+    "iron": "forgotten_hearths:block/hearth_kettle_iron"
+  },
+  "elements": [
+    { "from": [4, 0, 4], "to": [12, 2, 12], "faces": { "down": { "texture": "#iron" }, "up": { "texture": "#iron" }, "north": { "texture": "#iron" }, "south": { "texture": "#iron" }, "west": { "texture": "#iron" }, "east": { "texture": "#iron" } } },
+    { "from": [3, 2, 3], "to": [13, 7, 13], "faces": { "down": { "texture": "#copper" }, "up": { "texture": "#copper" }, "north": { "texture": "#copper" }, "south": { "texture": "#copper" }, "west": { "texture": "#copper" }, "east": { "texture": "#copper" } } },
+    { "from": [4, 7, 4], "to": [12, 9, 12], "faces": { "down": { "texture": "#copper" }, "up": { "texture": "#copper" }, "north": { "texture": "#copper" }, "south": { "texture": "#copper" }, "west": { "texture": "#copper" }, "east": { "texture": "#copper" } } },
+    { "from": [5, 9, 5], "to": [11, 10, 11], "faces": { "down": { "texture": "#iron" }, "up": { "texture": "#iron" }, "north": { "texture": "#iron" }, "south": { "texture": "#iron" }, "west": { "texture": "#iron" }, "east": { "texture": "#iron" } } },
+    { "from": [7, 10, 7], "to": [9, 11, 9], "faces": { "down": { "texture": "#iron" }, "up": { "texture": "#iron" }, "north": { "texture": "#iron" }, "south": { "texture": "#iron" }, "west": { "texture": "#iron" }, "east": { "texture": "#iron" } } },
+    { "from": [13, 4, 6], "to": [15, 7, 10], "faces": { "down": { "texture": "#copper" }, "up": { "texture": "#copper" }, "north": { "texture": "#copper" }, "south": { "texture": "#copper" }, "west": { "texture": "#copper" }, "east": { "texture": "#copper" } } },
+    { "from": [3, 8, 7], "to": [4, 13, 9], "faces": { "down": { "texture": "#iron" }, "up": { "texture": "#iron" }, "north": { "texture": "#iron" }, "south": { "texture": "#iron" }, "west": { "texture": "#iron" }, "east": { "texture": "#iron" } } },
+    { "from": [12, 8, 7], "to": [13, 13, 9], "faces": { "down": { "texture": "#iron" }, "up": { "texture": "#iron" }, "north": { "texture": "#iron" }, "south": { "texture": "#iron" }, "west": { "texture": "#iron" }, "east": { "texture": "#iron" } } },
+    { "from": [4, 12, 7], "to": [12, 14, 9], "faces": { "down": { "texture": "#iron" }, "up": { "texture": "#iron" }, "north": { "texture": "#iron" }, "south": { "texture": "#iron" }, "west": { "texture": "#iron" }, "east": { "texture": "#iron" } } }
+  ],
+  "display": {
+    "gui": { "rotation": [30, 225, 0], "translation": [0, 0, 0], "scale": [0.7, 0.7, 0.7] },
+    "fixed": { "rotation": [0, 180, 0], "scale": [0.7, 0.7, 0.7] }
+  }
+}

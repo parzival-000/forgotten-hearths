@@ -1,0 +1,18 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "forgotten_hearths:block/mended_crock",
+    "clay": "forgotten_hearths:block/mended_crock",
+    "inside": "forgotten_hearths:block/mended_crock_inside"
+  },
+  "elements": [
+    { "from": [5, 0, 5], "to": [11, 2, 11], "faces": { "down": { "texture": "#clay" }, "up": { "texture": "#clay" }, "north": { "texture": "#clay" }, "south": { "texture": "#clay" }, "west": { "texture": "#clay" }, "east": { "texture": "#clay" } } },
+    { "from": [3, 2, 3], "to": [13, 7, 13], "faces": { "down": { "texture": "#clay" }, "up": { "texture": "#clay" }, "north": { "texture": "#clay" }, "south": { "texture": "#clay" }, "west": { "texture": "#clay" }, "east": { "texture": "#clay" } } },
+    { "from": [4, 7, 4], "to": [12, 9, 12], "faces": { "down": { "texture": "#clay" }, "up": { "texture": "#clay" }, "north": { "texture": "#clay" }, "south": { "texture": "#clay" }, "west": { "texture": "#clay" }, "east": { "texture": "#clay" } } },
+    { "from": [4, 9, 4], "to": [12, 11, 12], "faces": { "down": { "texture": "#clay" }, "up": { "texture": "#inside" }, "north": { "texture": "#clay" }, "south": { "texture": "#clay" }, "west": { "texture": "#clay" }, "east": { "texture": "#clay" } } }
+  ],
+  "display": {
+    "gui": { "rotation": [30, 225, 0], "translation": [0, 0, 0], "scale": [0.72, 0.72, 0.72] },
+    "fixed": { "rotation": [0, 180, 0], "scale": [0.72, 0.72, 0.72] }
+  }
+}

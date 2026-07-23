@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        { "type": "minecraft:item", "name": "forgotten_hearths:patchwork_quilt" }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
