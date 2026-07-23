@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import com.parzival000.forgottenhearths.config.ForgottenHearthsConfig;
 import com.parzival000.forgottenhearths.gametest.ModGameTests;
 import com.parzival000.forgottenhearths.gametest.PersistenceValidation;
+import com.parzival000.forgottenhearths.gametest.WorldgenValidation;
 import com.parzival000.forgottenhearths.registry.ModBlockEntities;
 import com.parzival000.forgottenhearths.registry.ModBlocks;
 import com.parzival000.forgottenhearths.registry.ModCreativeTab;
@@ -32,6 +33,7 @@ public final class ForgottenHearths {
         ModWorldgen.STRUCTURE_PLACEMENTS.register(modBus);
         ModGameTests.TEST_FUNCTIONS.register(modBus);
         NeoForge.EVENT_BUS.addListener(PersistenceValidation::onServerStarted);
+        NeoForge.EVENT_BUS.addListener(WorldgenValidation::onServerStarted);
         container.registerConfig(ModConfig.Type.SERVER, ForgottenHearthsConfig.SPEC, "forgotten-hearths-server.toml");
     }
 
