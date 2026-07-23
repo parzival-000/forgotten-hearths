@@ -5,6 +5,7 @@ import com.parzival000.forgottenhearths.config.ForgottenHearthsConfig;
 import com.parzival000.forgottenhearths.registry.ModBlockEntities;
 import com.parzival000.forgottenhearths.registry.ModBlocks;
 import com.parzival000.forgottenhearths.registry.ModCreativeTab;
+import com.parzival000.forgottenhearths.registry.ModEffects;
 import com.parzival000.forgottenhearths.registry.ModItems;
 import com.parzival000.forgottenhearths.registry.ModWorldgen;
 import net.minecraft.resources.Identifier;
@@ -23,6 +24,7 @@ public final class ForgottenHearths {
         ModBlocks.BLOCKS.register(modBus);
         ModItems.ITEMS.register(modBus);
         ModBlockEntities.BLOCK_ENTITIES.register(modBus);
+        ModEffects.EFFECTS.register(modBus);
         ModCreativeTab.TABS.register(modBus);
         ModWorldgen.STRUCTURE_PLACEMENTS.register(modBus);
         container.registerConfig(ModConfig.Type.SERVER, ForgottenHearthsConfig.SPEC, "forgotten-hearths-server.toml");
