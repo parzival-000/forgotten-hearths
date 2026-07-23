@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:bowl",
+    "minecraft:wheat",
+    "minecraft:wheat",
+    "minecraft:milk_bucket"
+  ],
+  "result": {
+    "id": "forgotten_hearths:hearth_porridge"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:bowl",
+    "minecraft:carrot",
+    "minecraft:baked_potato",
+    "minecraft:brown_mushroom"
+  ],
+  "result": {
+    "id": "forgotten_hearths:root_stew"
+  }
+}

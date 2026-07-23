@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "H": "minecraft:honey_bottle",
+    "W": "minecraft:wheat"
+  },
+  "pattern": [
+    " W ",
+    "WHW",
+    " W "
+  ],
+  "result": {
+    "count": 4,
+    "id": "forgotten_hearths:honeyed_oatcake"
+  }
+}
