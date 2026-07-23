@@ -41,4 +41,3 @@ public final class ForgottenHearths {
         return Identifier.fromNamespaceAndPath(MOD_ID, path);
     }
 }
-
