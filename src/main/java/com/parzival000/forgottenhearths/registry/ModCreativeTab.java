@@ -29,9 +29,6 @@ public final class ModCreativeTab {
                         output.accept(ModItems.HEARTH_PORRIDGE.get());
                         output.accept(ModItems.ROOT_STEW.get());
                         output.accept(ModItems.HONEYED_OATCAKE.get());
-                        output.accept(ModItems.HEARTH_KETTLE_BLOCK.get());
-                        output.accept(ModItems.MENDED_CROCK_BLOCK.get());
-                        output.accept(ModItems.PATCHWORK_QUILT_BLOCK.get());
                     })
                     .build()
     );
@@ -39,4 +36,3 @@ public final class ModCreativeTab {
     private ModCreativeTab() {
     }
 }
-

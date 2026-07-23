@@ -4,17 +4,23 @@
   "block.forgotten_hearths.restoration_marker": "Household Remnant",
   "block.forgotten_hearths.hearth_kettle": "Hearth Kettle",
   "block.forgotten_hearths.mended_crock": "Mended Crock",
+  "block.forgotten_hearths.mended_crock_block": "Mended Crock",
   "block.forgotten_hearths.patchwork_quilt": "Patchwork Quilt",
   "item.forgotten_hearths.blackened_kettle": "Blackened Kettle",
   "item.forgotten_hearths.blackened_kettle.tooltip": "The soot is old, but the copper underneath still rings.",
+  "item.forgotten_hearths.blackened_kettle.guide": "Repair with one copper ingot at a crafting table.",
   "item.forgotten_hearths.mended_kettle": "Mended Kettle",
   "item.forgotten_hearths.mended_kettle.tooltip": "Dented, scrubbed, and ready to hang over a fire.",
+  "item.forgotten_hearths.mended_kettle.guide": "Use on the kettle remnant after rekindling the hearth.",
   "item.forgotten_hearths.cracked_crock": "Cracked Crock",
   "item.forgotten_hearths.cracked_crock.tooltip": "A kitchen crock split cleanly down one side.",
+  "item.forgotten_hearths.cracked_crock.guide": "Repair with one clay ball at a crafting table.",
   "item.forgotten_hearths.mended_crock": "Mended Crock",
   "item.forgotten_hearths.mended_crock.tooltip": "The seam shows. That is part of its story.",
+  "item.forgotten_hearths.mended_crock.guide": "Use on the crock remnant after rekindling the hearth.",
   "item.forgotten_hearths.patchwork_cloth": "Patchwork Cloth",
   "item.forgotten_hearths.patchwork_cloth.tooltip": "Small pieces stitched into something warm again.",
+  "item.forgotten_hearths.patchwork_cloth.guide": "Use on the quilt remnant after rekindling the hearth.",
   "item.forgotten_hearths.recipe_fragment": "Recipe Fragment",
   "item.forgotten_hearths.recipe_fragment.tooltip": "A few careful lines, saved from the damp.",
   "item.forgotten_hearths.hearth_porridge": "Hearth Porridge",
@@ -47,4 +53,3 @@
   "advancements.forgotten_hearths.a_house_remembered.title": "A House Remembered",
   "advancements.forgotten_hearths.a_house_remembered.description": "Finish the three restoration places and make the homestead a refuge."
 }
-

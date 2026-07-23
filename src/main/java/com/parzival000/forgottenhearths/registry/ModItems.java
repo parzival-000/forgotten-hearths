@@ -64,9 +64,13 @@ public final class ModItems {
 
     private static DeferredItem<Item> flavor(String name, int stackSize, Rarity rarity, boolean guided) {
         String tooltipKey = "item.forgotten_hearths." + name + ".tooltip";
-        List<Component> lore = List.of(
-                Component.translatable(tooltipKey).withStyle(style -> style.withColor(0x8E8173))
-        );
+        List<Component> lore = guided
+                ? List.of(
+                        Component.translatable(tooltipKey).withStyle(style -> style.withColor(0x8E8173)),
+                        Component.translatable("item.forgotten_hearths." + name + ".guide")
+                                .withStyle(style -> style.withColor(0xD6A85F))
+                )
+                : List.of(Component.translatable(tooltipKey).withStyle(style -> style.withColor(0x8E8173)));
         return ITEMS.registerSimpleItem(name, properties -> properties
                 .stacksTo(stackSize)
                 .rarity(rarity)
@@ -76,4 +80,3 @@ public final class ModItems {
     private ModItems() {
     }
 }
-
