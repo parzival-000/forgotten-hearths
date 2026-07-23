@@ -3,6 +3,7 @@ package com.parzival000.forgottenhearths.registry;
 import com.parzival000.forgottenhearths.ForgottenHearths;
 import com.parzival000.forgottenhearths.block.ForgottenHearthBlock;
 import com.parzival000.forgottenhearths.block.HearthStage;
+import com.parzival000.forgottenhearths.block.RestorationMarkerBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -24,6 +25,16 @@ public final class ModBlocks {
                     .lightLevel(state -> state.getValue(ForgottenHearthBlock.STAGE) == HearthStage.RESTORED
                             ? 13
                             : state.getValue(ForgottenHearthBlock.STAGE).isWarm() ? 10 : 0)
+    );
+
+    public static final DeferredBlock<RestorationMarkerBlock> RESTORATION_MARKER = BLOCKS.registerBlock(
+            "restoration_marker",
+            RestorationMarkerBlock::new,
+            properties -> properties
+                    .mapColor(MapColor.COLOR_GRAY)
+                    .strength(Block.INDESTRUCTIBLE, 1200.0F)
+                    .sound(SoundType.DEEPSLATE_TILES)
+                    .noOcclusion()
     );
 
 

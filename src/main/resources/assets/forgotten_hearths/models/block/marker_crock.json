@@ -1,0 +1,6 @@
+{
+  "textures": { "particle": "forgotten_hearths:block/marker_crock", "all": "forgotten_hearths:block/marker_crock" },
+  "elements": [
+    { "from": [3, 0, 3], "to": [13, 8, 13], "faces": { "down": { "texture": "#all" }, "up": { "texture": "#all" }, "north": { "texture": "#all" }, "south": { "texture": "#all" }, "west": { "texture": "#all" }, "east": { "texture": "#all" } } }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north,task=kettle": { "model": "forgotten_hearths:block/marker_kettle" },
+    "facing=east,task=kettle": { "model": "forgotten_hearths:block/marker_kettle", "y": 90 },
+    "facing=south,task=kettle": { "model": "forgotten_hearths:block/marker_kettle", "y": 180 },
+    "facing=west,task=kettle": { "model": "forgotten_hearths:block/marker_kettle", "y": 270 },
+    "facing=north,task=crock": { "model": "forgotten_hearths:block/marker_crock" },
+    "facing=east,task=crock": { "model": "forgotten_hearths:block/marker_crock", "y": 90 },
+    "facing=south,task=crock": { "model": "forgotten_hearths:block/marker_crock", "y": 180 },
+    "facing=west,task=crock": { "model": "forgotten_hearths:block/marker_crock", "y": 270 },
+    "facing=north,task=quilt": { "model": "forgotten_hearths:block/marker_quilt" },
+    "facing=east,task=quilt": { "model": "forgotten_hearths:block/marker_quilt", "y": 90 },
+    "facing=south,task=quilt": { "model": "forgotten_hearths:block/marker_quilt", "y": 180 },
+    "facing=west,task=quilt": { "model": "forgotten_hearths:block/marker_quilt", "y": 270 }
+  }
+}
