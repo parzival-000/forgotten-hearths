@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        { "type": "minecraft:item", "name": "forgotten_hearths:blackened_kettle" }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        { "type": "minecraft:item", "name": "forgotten_hearths:cracked_crock" }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        { "type": "minecraft:item", "name": "forgotten_hearths:patchwork_cloth", "weight": 3 },
+        { "type": "minecraft:item", "name": "minecraft:string", "weight": 2 },
+        { "type": "minecraft:item", "name": "minecraft:white_wool", "weight": 1 }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:bread", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:coal", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:brick", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:book", "weight": 2 },
+        { "type": "minecraft:item", "name": "forgotten_hearths:recipe_fragment", "weight": 1 }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2.0,
+        "max": 4.0
+      }
+    }
+  ],
+  "random_sequence": "forgotten_hearths:chests/abandoned_homestead"
+}

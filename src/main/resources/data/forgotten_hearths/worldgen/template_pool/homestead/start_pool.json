@@ -1,0 +1,32 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "forgotten_hearths:homestead/woodland_cottage",
+        "processors": { "processors": [] },
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "forgotten_hearths:homestead/plains_farmstead",
+        "processors": { "processors": [] },
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "forgotten_hearths:homestead/taiga_shelter",
+        "processors": { "processors": [] },
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}
