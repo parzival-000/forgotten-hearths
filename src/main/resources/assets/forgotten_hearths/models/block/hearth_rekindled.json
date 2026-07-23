@@ -1,0 +1,7 @@
+{
+  "parent": "forgotten_hearths:block/hearth_base",
+  "textures": {
+    "surface": "forgotten_hearths:block/hearth_rekindled",
+    "inside": "forgotten_hearths:block/hearth_inside_ember"
+  }
+}

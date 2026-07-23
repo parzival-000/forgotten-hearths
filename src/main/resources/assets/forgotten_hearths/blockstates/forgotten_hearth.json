@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north,stage=forgotten": { "model": "forgotten_hearths:block/hearth_forgotten" },
+    "facing=east,stage=forgotten": { "model": "forgotten_hearths:block/hearth_forgotten", "y": 90 },
+    "facing=south,stage=forgotten": { "model": "forgotten_hearths:block/hearth_forgotten", "y": 180 },
+    "facing=west,stage=forgotten": { "model": "forgotten_hearths:block/hearth_forgotten", "y": 270 },
+    "facing=north,stage=discovered": { "model": "forgotten_hearths:block/hearth_discovered" },
+    "facing=east,stage=discovered": { "model": "forgotten_hearths:block/hearth_discovered", "y": 90 },
+    "facing=south,stage=discovered": { "model": "forgotten_hearths:block/hearth_discovered", "y": 180 },
+    "facing=west,stage=discovered": { "model": "forgotten_hearths:block/hearth_discovered", "y": 270 },
+    "facing=north,stage=rekindled": { "model": "forgotten_hearths:block/hearth_rekindled" },
+    "facing=east,stage=rekindled": { "model": "forgotten_hearths:block/hearth_rekindled", "y": 90 },
+    "facing=south,stage=rekindled": { "model": "forgotten_hearths:block/hearth_rekindled", "y": 180 },
+    "facing=west,stage=rekindled": { "model": "forgotten_hearths:block/hearth_rekindled", "y": 270 },
+    "facing=north,stage=restored": { "model": "forgotten_hearths:block/hearth_restored" },
+    "facing=east,stage=restored": { "model": "forgotten_hearths:block/hearth_restored", "y": 90 },
+    "facing=south,stage=restored": { "model": "forgotten_hearths:block/hearth_restored", "y": 180 },
+    "facing=west,stage=restored": { "model": "forgotten_hearths:block/hearth_restored", "y": 270 }
+  }
+}
