@@ -1,0 +1,16 @@
+{
+  "parent": "forgotten_hearths:warmth_returns",
+  "criteria": {
+    "remembered": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": { "translate": "advancements.forgotten_hearths.traces_of_a_home.description" },
+    "icon": { "id": "forgotten_hearths:mended_crock" },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "title": { "translate": "advancements.forgotten_hearths.traces_of_a_home.title" }
+  },
+  "requirements": [["remembered"]]
+}

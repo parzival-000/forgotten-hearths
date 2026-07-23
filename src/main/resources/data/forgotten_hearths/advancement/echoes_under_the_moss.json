@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "remembered": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "background": "minecraft:gui/advancements/backgrounds/adventure",
+    "description": { "translate": "advancements.forgotten_hearths.echoes_under_the_moss.description" },
+    "icon": { "id": "forgotten_hearths:blackened_kettle" },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "title": { "translate": "advancements.forgotten_hearths.echoes_under_the_moss.title" }
+  },
+  "requirements": [["remembered"]],
+  "sends_telemetry_event": false
+}

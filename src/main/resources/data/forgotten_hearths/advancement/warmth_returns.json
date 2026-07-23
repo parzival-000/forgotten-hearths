@@ -1,0 +1,16 @@
+{
+  "parent": "forgotten_hearths:echoes_under_the_moss",
+  "criteria": {
+    "remembered": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": { "translate": "advancements.forgotten_hearths.warmth_returns.description" },
+    "icon": { "id": "minecraft:campfire" },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "title": { "translate": "advancements.forgotten_hearths.warmth_returns.title" }
+  },
+  "requirements": [["remembered"]]
+}

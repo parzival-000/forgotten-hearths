@@ -1,0 +1,25 @@
+{
+  "parent": "forgotten_hearths:traces_of_a_home",
+  "criteria": {
+    "remembered": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": { "translate": "advancements.forgotten_hearths.a_house_remembered.description" },
+    "frame": "challenge",
+    "icon": { "id": "forgotten_hearths:recipe_fragment" },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "title": { "translate": "advancements.forgotten_hearths.a_house_remembered.title" }
+  },
+  "requirements": [["remembered"]],
+  "rewards": {
+    "experience": 100,
+    "recipes": [
+      "forgotten_hearths:hearth_porridge",
+      "forgotten_hearths:root_stew",
+      "forgotten_hearths:honeyed_oatcake"
+    ]
+  }
+}
