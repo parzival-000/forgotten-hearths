@@ -2,6 +2,7 @@ package com.parzival000.forgottenhearths;
 
 import com.mojang.logging.LogUtils;
 import com.parzival000.forgottenhearths.config.ForgottenHearthsConfig;
+import com.parzival000.forgottenhearths.gametest.ModGameTests;
 import com.parzival000.forgottenhearths.registry.ModBlockEntities;
 import com.parzival000.forgottenhearths.registry.ModBlocks;
 import com.parzival000.forgottenhearths.registry.ModCreativeTab;
@@ -27,6 +28,7 @@ public final class ForgottenHearths {
         ModEffects.EFFECTS.register(modBus);
         ModCreativeTab.TABS.register(modBus);
         ModWorldgen.STRUCTURE_PLACEMENTS.register(modBus);
+        ModGameTests.TEST_FUNCTIONS.register(modBus);
         container.registerConfig(ModConfig.Type.SERVER, ForgottenHearthsConfig.SPEC, "forgotten-hearths-server.toml");
     }
 
