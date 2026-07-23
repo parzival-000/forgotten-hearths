@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "forgotten_hearths:configurable_random_spread",
+    "salt": 19373629,
+    "separation": 12,
+    "spacing": 52
+  },
+  "structures": [
+    {
+      "structure": "forgotten_hearths:forgotten_homestead",
+      "weight": 1
+    }
+  ]
+}
