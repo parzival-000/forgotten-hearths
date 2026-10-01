@@ -43,3 +43,9 @@ repo/
 ### Bootstrap downloads ###
 _mdk_temp/
 _mdk_2612/
+
+### Local development planning ###
+/instructions.md
+/IMPLEMENTATION_PLAN.md
+/WORKFLOW_STATE.md
+/.codex-clean-checkout/
